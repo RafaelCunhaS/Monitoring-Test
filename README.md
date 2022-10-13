@@ -15,7 +15,7 @@ Monitoring system, that alerts the team if denied, failed or reversed transactio
     $ python3 -m venv .venv && source .venv/bin/activate
     
     # Install the dependencies
-    $ python3 -m pip install -r dev-requirements.txt
+    $ python3 -m pip install -r requirements.txt
     
     # And run the API
     $ uvicorn main:app --reload
